@@ -2,9 +2,10 @@
   "name": "dem",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "server": "webpack-dev-server ./app.js"
   },
   "author": "jichao",
   "license": "ISC",
